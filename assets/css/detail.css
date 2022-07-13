@@ -1,0 +1,13 @@
+.product-listing img {
+  display: inline-block;
+  width: 100% !important
+}
+
+.product-heading h2 {
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 20px;
+  margin: 0;
+  font-weight: 600;
+  text-transform: none
+}
