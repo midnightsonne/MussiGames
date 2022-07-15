@@ -32,34 +32,6 @@ a:hover {
 	text-decoration: none
 }
 
-table {
-	background-color: #2f3238;
-	margin-top: 10px;
-	margin-bottom: 10px
-}
-
-table a,
-tr {
-	color: #fff
-}
-
-td,
-th {
-	text-align: left;
-	border: 1px solid #a9a9a9;
-	padding: 8px
-}
-
-th {
-	padding-top: 12px;
-	padding-bottom: 12px;
-	background-color: #26292e
-}
-
-tr:hover {
-	background-color: #26292e
-}
-
 header .sticky-nav {
 	position: relative;
 	width: 100%;

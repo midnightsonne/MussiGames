@@ -11,34 +11,33 @@
   text-align: center
 }
 
-.margin_20_bottom {
-  margin-bottom: 20px
-}
-
 .product_list {
   min-height: 50%;
-  border-block: 2px solid #26292e;
-  border-radius: 5px;
+  border-block: 3px solid #26292e;
+  border-radius: 10px;
+  margin-bottom: 20px;
   transition: ease all .5s;
-  box-shadow: 0 0 25px -17px #000
+  box-shadow: 0 0 25px -20px #000
 }
 
 .product-listing img {
+  border-radius: 10px;
   display: inline-block;
   width: 100% !important
 }
 
 .product-heading h2 {
+  margin: 0;
   font-size: 25px;
   color: #fff;
-  padding-bottom: 20px;
-  margin: 0;
+  padding: 32px;
   font-weight: 600;
-  text-transform: none
+  text-transform: uppercase
 }
 
 .product_img {
   overflow: hidden;
+  border-radius: 8px;
   background: #26292e
 }
 
@@ -54,7 +53,7 @@
 
 .product_list:focus div.product_img img,
 .product_list:hover div.product_img img {
-  transform: scale(1.05);
+  transform: scale(1.15);
   transition: ease all .5s
 }
 
@@ -79,7 +78,28 @@
   max-width: 100%
 }
 
-@media (max-width:800px) {
+.polo-first {
+	width: 100%;
+}
+
+.table td,
+.table th {
+  padding: .50rem;
+  font-size: 12px;
+  border: 1px solid #dee2e6;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.table th {
+  background-color: #26292e;
+}
+
+.table tr:hover {
+  background-color: #26292e;
+}
+
+@media (max-width:900px) {
   .col-md-3 {
     flex: 0 0 33.33%;
     max-width: 33.33%
@@ -125,7 +145,15 @@
   }
 }
 
-@media (max-width:320px) {
+@media (max-width:525px) {
+  .table td,
+  .table th {
+    padding: .25rem;
+    font-size: 10px;
+  }
+}
+
+@media (max-width:300px) {
   .col-md-3 {
     flex: 0 0 100%;
     max-width: 100%
