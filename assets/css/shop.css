@@ -23,6 +23,20 @@
   box-shadow: 0 0 25px -17px #000
 }
 
+.product-listing img {
+  display: inline-block;
+  width: 100% !important
+}
+
+.product-heading h2 {
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 20px;
+  margin: 0;
+  font-weight: 600;
+  text-transform: none
+}
+
 .product_img {
   overflow: hidden;
   background: #26292e
