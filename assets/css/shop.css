@@ -35,6 +35,10 @@
   text-transform: uppercase
 }
 
+.product-heading h7 {
+  margin-top: -24px;
+}
+
 .product_img {
   overflow: hidden;
   border-radius: 8px;
